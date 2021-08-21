@@ -62,7 +62,7 @@ function Profile() {
         <div className="card custom-img-box">
           <figure className="image">
             <img
-              src="./public/assets/images/DSC02057.png"
+              src={process.env.PUBLIC_URL + "/assets/images/Headshot.png"}
               alt="Emily's headshot"
               className="has-ratio"
             />
